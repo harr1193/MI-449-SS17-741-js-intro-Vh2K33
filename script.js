@@ -2,23 +2,23 @@ var drumBoom = document.getElementById('drum-boom')
 var drumClap = document.getElementById('drum-clap')
 var drumKick = document.getElementById('drum-kick')
 
-drumBoom.addEventListener('click', function() {
+drumBoom.addEventListener('click', function () {
   document.getElementById('boom').play()
 })
-drumBoom.addEventListener('mouseenter', function() {
+drumBoom.addEventListener('mouseenter', function () {
   document.getElementById('boom').play()
 })
 
-drumClap.addEventListener('click', function() {
+drumClap.addEventListener('click', function () {
   document.getElementById('clap').play()
 })
-drumClap.addEventListener('mouseenter', function() {
+drumClap.addEventListener('mouseenter', function () {
   document.getElementById('clap').play()
 })
 
-drumKick.addEventListener('click', function() {
+drumKick.addEventListener('click', function () {
   document.getElementById('kick').play()
 })
-drumKick.addEventListener('mouseenter', function() {
+drumKick.addEventListener('mouseenter', function () {
   document.getElementById('kick').play()
 })
