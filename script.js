@@ -1,7 +1,24 @@
-var drumBoom = document.getElementByID('drum-boom')
-var drumClap = document.getElementByID('drum-clap')
-var drumKick = document.getElementByID('drum-kick')
+var drumBoom = document.getElementById('drum-boom')
+var drumClap = document.getElementById('drum-clap')
+var drumKick = document.getElementById('drum-kick')
 
-/*buttonElement.addEventListener('click', function() {
-  <audio
-}*/
+drumBoom.addEventListener('click', function() {
+  document.getElementById('boom').play()
+})
+drumBoom.addEventListener('mouseenter', function() {
+  document.getElementById('boom').play()
+})
+
+drumClap.addEventListener('click', function() {
+  document.getElementById('clap').play()
+})
+drumClap.addEventListener('mouseenter', function() {
+  document.getElementById('clap').play()
+})
+
+drumKick.addEventListener('click', function() {
+  document.getElementById('kick').play()
+})
+drumKick.addEventListener('mouseenter', function() {
+  document.getElementById('kick').play()
+})
